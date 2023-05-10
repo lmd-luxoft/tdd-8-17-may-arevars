@@ -14,6 +14,29 @@ public class Calc
 
     public int Add(string digits)
     {
-        throw new NotImplementedException();
+        if (string.IsNullOrEmpty(digits))
+        {
+            return 0;
+        }
+        string[] numArray = digits.Split(',');
+
+        if (!numArray.Any() ||
+            numArray.Count() > 2
+            )
+        {
+            return -1;
+        }
+
+        int number;
+        int sum = 0;
+        foreach (string num in numArray)
+        {
+            if(!int.TryParse(num, out number))
+            {
+                return -1;
+            }
+            sum += int.Parse(num);
+        }
+        return sum;
     }
 }
