@@ -1,0 +1,85 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.csproj.user
+*.cache
+*.sln.docstates
+
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+build/
+
+# NuGet Packages
+*.nupkg
+packages/
+*.nuspec
+**/PackageBackup/
+**/TestResults/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Resharper files
+_resharper*/
+*.resharper*
+*.DotSettings
+
+# Windows Azure build output
+csx/
+*.build.csdef
+
+# Microsoft Azure Web App publish settings
+PublishScripts/
+Generated_Code/
+
+# StyleCop
+StyleCopReport.xml
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# TODO comment files
+*.todotxt
+*.todo
+
+# BenchmarkDotNet artifacts directory
+BenchmarkDotNet.Artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+*.eml
+*.prf
+
+# Microsoft Fakes
+FakesAssemblies/
