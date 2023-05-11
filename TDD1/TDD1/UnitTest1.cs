@@ -87,5 +87,21 @@ namespace TDD1
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void StringWithBreakLineCharactersTest()
+        {
+            //Arrange
+            string a = "1,\n";
+            int expected = -1;
+
+            var calculator = new Calc();
+
+            //Act
+            var actual = calculator.Add(a);
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }

@@ -18,7 +18,8 @@ public class Calc
         {
             return 0;
         }
-        string[] numArray = digits.Split(',');
+        string[] numArray = digits.Split(new char[] { ',', '\n' });
+        //string[] numArray = digits.Split(',');
 
         if (!numArray.Any() ||
             numArray.Count() > 2
