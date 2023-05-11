@@ -119,5 +119,21 @@ namespace TDD1
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void DifferentDelimiterBadWayTest()
+        {
+            //Arrange
+            string a = "//;\n1,2,3";
+            int expected = -1;
+
+            var calculator = new Calc();
+
+            //Act
+            var actual = calculator.Add(a);
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
